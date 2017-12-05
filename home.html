@@ -54,6 +54,13 @@
 		      margin-left: 200px;
 	        margin-right: 200px;
         }
+	.background {
+		position: relative;
+		width: 100%
+	}
+	.logo {
+		position: absolute;
+	}
       </style>
   </head>
   <body>
@@ -73,13 +80,14 @@
     <br>
     <br>
     <br>
-    <!--Logo-->
     <center>
-      <img src="https://gijoegotyler.github.io/Website-TSA/logo.svg" width="600px">
-    </center>
-    <center>
+      <div class = "background">
+      <img src="https://static.pexels.com/photos/325229/pexels-photo-325229.jpeg">
+      <!--Logo-->
+      <img class="content" src="https://gijoegotyler.github.io/Website-TSA/logo.svg" width="600px">
       <!--Content of the webpage-->
-      <h1>What is Cloud Computing?</h1>
+      <h1 class="content">What is Cloud Computing?</h1>
+      </div>
       <p class="text">Cloud Computing is where a server that you connect to does the computing for you. Computing is a set of algorithms used to accomplish a task. Algorithms are sets of rules and steps to follow. Our definition of cloud computing is algorithms ran on a server to accomplish a task.</p>
       <p class="text">Some popular examples of Cloud Computing is Gmail, Drive, Drop Box, GeForce Now, and Wolfram Alpha.</p>
       <p class="text">Cloud Computing is more than just storage. It is programs that run on other servers. This can range from as simple as a calculator up to storage and live graphing.</p>
